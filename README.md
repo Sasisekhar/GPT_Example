@@ -1,28 +1,27 @@
-# Blank Cadmium Project
+# GPT example
 |  Linux | Windows| ESP32 | MSP432 |
 |:--|:--|:--|:--|
-|:heavy_check_mark:|:heavy_check_mark:|:x:|:question:|
+|:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|
 ## Introduction
-This is a blank project that you can use as a template to start off your DEVS models. This project consits of a template atomic and coupled model.
+Go [here]{https://github.com/SimulationEverywhere/cadmium_v2/wiki/5.-Examples-of-DEVS-Models} for a detailed explanation of the GPT model
 
 ## Dependencies
 This project assumes that you have Cadmium installed in a location accessible by the environment variable $CADMIUM.
+_Note: Ignore this if you are using the server; all the dependencies are pre-installed_
 
 ## Build
 To build this project, run:
 ```sh
-source build.sh
+source build_sim.sh
 ```
 __NOTE__: Everytime you run build.sh, the contents of `build/` and `bin/` will be replaced.
 
 ## Execute
 To run the project, run:
 ```sh
-./bin/sample_project
+./bin/GPT_Example <Period of job creation> <time taken to process> <total observation time>
 ```
-
-## Modify
-You can modify this project per your requirement. Change the project name defined in the topmost CMakeLists.txt file here:
-```cmake
-set(projectName "sample_project")
+Replace everything within `<...>`. And example:
+```sh
+./bin/GPT_Example 3 2 10
 ```
