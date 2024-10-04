@@ -3,7 +3,7 @@
 |:--|:--|:--|:--|
 |:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|
 ## Introduction
-Go [here]{https://github.com/SimulationEverywhere/cadmium_v2/wiki/5.-Examples-of-DEVS-Models} for a detailed explanation of the GPT model
+Go [here](https://github.com/SimulationEverywhere/cadmium_v2/wiki/5.-Examples-of-DEVS-Models) for a detailed explanation of the GPT model
 
 ## Dependencies
 This project assumes that you have Cadmium installed in a location accessible by the environment variable $CADMIUM.
