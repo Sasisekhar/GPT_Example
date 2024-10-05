@@ -21,7 +21,7 @@ To run the project, run:
 ```sh
 ./bin/GPT_Example <Period of job creation> <time taken to process> <total observation time>
 ```
-Replace everything within `<...>`. And example:
+Replace everything within `<...>` with appropriate values, example:
 ```sh
 ./bin/GPT_Example 3 2 10
 ```
