@@ -7,7 +7,8 @@ Go [here](https://github.com/SimulationEverywhere/cadmium_v2/wiki/5.-Examples-of
 
 ## Dependencies
 This project assumes that you have Cadmium installed in a location accessible by the environment variable $CADMIUM.
-_Note: Ignore this if you are using the server; all the dependencies are pre-installed_
+
+_Note: Ignore this if you are using the DEVSsim server; all the dependencies are pre-installed_
 
 ## Build
 To build this project, run:
